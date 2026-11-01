@@ -1,5 +1,5 @@
 const express=require('express'),fs=require('fs'),path=require('path'),multer=require('multer');
-const app=express();const PIN=process.env.ADMIN_PIN||'2468';const DB=path.join(__dirname,'data.json');
+const app=express();const PIN=process.env.ADMIN_PIN||String(Math.floor(100000+Math.random()*900000));if(!process.env.ADMIN_PIN)console.log('ADMIN_PIN not set; temporary admin PIN for this run: '+PIN);const DB=path.join(__dirname,'data.json');
 const load=()=>JSON.parse(fs.readFileSync(DB));const save=d=>fs.writeFileSync(DB,JSON.stringify(d,null,1));
 if(!fs.existsSync(DB))save(require('./seed.js'));
 app.use(express.json({limit:'5mb'}));app.use(express.static(path.join(__dirname,'public')));
