@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Klik Admin</title><link rel="stylesheet" href="/style.css">
+<style>body{max-width:900px;padding:0 0 40px}.box{background:#fff;margin:14px;padding:16px;border-radius:14px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #eee;padding:6px;text-align:left;vertical-align:top}select{padding:6px;border-radius:6px}label{font-size:13px;color:#8a7d76}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.sm{padding:6px 12px;font-size:13px}</style></head>
+<body><header><div class="logo">Klik <i>Admin</i></div><a href="/" class="demo" style="text-decoration:none;color:inherit">View store</a></header>
+<div id="login" class="box"><h3 class="serif">Owner sign-in</h3><input class="f" id="pin" type="password" inputmode="numeric" placeholder="PIN"><button class="btn" id="lg">Enter</button></div>
+<div id="app" style="display:none">
+<div class="box"><h3 class="serif">Import from Rain POS (CSV)</h3><p style="font-size:13px;color:#8a7d76;margin:6px 0 10px">In Rain: Inventory › Products › select items › Bulk Actions › Export (or Inventory › Bulk › “Edit Existing Products Long”). Upload that CSV here. Rows sharing a Product ID / Title are merged into one product with size & color options. Existing products with the same SKU are updated.</p>
+<input type="file" id="csv" accept=".csv,text/csv"><div id="map"></div></div>
+<div class="box"><h3 class="serif" id="ft">Add product</h3><input type="hidden" id="eid">
+<label>Name</label><input class="f" id="f_name"><div class="row"><div><label>Price</label><input class="f" id="f_price" type="number" step="0.01"></div><div><label>Category</label><input class="f" id="f_category" list="cl"><datalist id="cl"></datalist></div></div>
+<div class="row"><div><label>Sizes (comma)</label><input class="f" id="f_sizes" placeholder="XS, S, M, L"></div><div><label>Colors (comma)</label><input class="f" id="f_colors"></div></div>
+<div class="row"><div><label>SKU</label><input class="f" id="f_sku"></div><div><label>Quantity</label><input class="f" id="f_qty" type="number"></div></div>
+<label>Description</label><textarea class="f" id="f_description" rows="3"></textarea>
+<label>Image URLs (comma) or upload</label><input class="f" id="f_images"><input type="file" id="up" accept="image/*"><p><label><input type="checkbox" id="f_featured"> Featured on home</label></p><br>
+<button class="btn" id="sv">Save product</button> <button class="btn light sm" id="cx" style="border:1px solid #ccc">Clear</button></div>
+<div class="box"><div style="display:flex;justify-content:space-between"><h3 class="serif">Products (<span id="cnt"></span>)</h3><button class="btn light sm" id="ds" style="border:1px solid #ccc">Remove all sample products</button></div><table id="tb"></table></div></div>
+<div class="toast" id="t"></div><script src="/admin.js"></script></body></html>

@@ -1,0 +1,7 @@
+Product ID,Title,SKU,UPC,Category,Department,Manufacturer,Price,Quantity,Option 1 Name,Option 1 Value,Option 2 Name,Option 2 Value,Short Description,Image URL
+5001,Velvet Puff Sleeve Top,KC-VPS-S-BLK,0123,Tops,Womens,Klik House,54.00,3,Size,S,Color,Black,Plush velvet top with puff sleeves,https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80
+5001,Velvet Puff Sleeve Top,KC-VPS-M-BLK,0124,Tops,Womens,Klik House,54.00,4,Size,M,Color,Black,Plush velvet top with puff sleeves,
+5001,Velvet Puff Sleeve Top,KC-VPS-M-WINE,0125,Tops,Womens,Klik House,54.00,2,Size,M,Color,Wine,Plush velvet top with puff sleeves,
+5002,Corduroy Shacket,KC-CS-M,0200,Outerwear,Womens,Klik House,"$84.00",5,Size,M,Color,Rust,Cozy oversized corduroy shirt jacket,https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=80
+5002,Corduroy Shacket,KC-CS-L,0201,Outerwear,Womens,Klik House,"$84.00",2,Size,L,Color,Rust,Cozy oversized corduroy shirt jacket,
+5003,Sweater Knit Midi Dress,KC-SKD,0300,Dresses,Womens,Klik House,96.50,6,,,,,Ribbed sweater dress for fall,https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80

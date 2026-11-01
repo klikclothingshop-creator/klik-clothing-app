@@ -1,0 +1,366 @@
+[
+ {
+  "id": "sample1",
+  "name": "Linen Wrap Midi Dress",
+  "price": 78,
+  "category": "Dresses",
+  "colors": [
+   "Sage",
+   "Sand"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": true,
+  "description": "Breezy wrap silhouette in washed linen with a tie waist. (Sample product)",
+  "sku": "KLIK-S100",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample2",
+  "name": "Floral Tiered Maxi Dress",
+  "price": 92,
+  "category": "Dresses",
+  "colors": [
+   "Blush Floral"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": true,
+  "description": "Romantic tiered maxi with flutter sleeves. (Sample product)",
+  "sku": "KLIK-S101",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample3",
+  "name": "Satin Slip Dress",
+  "price": 68,
+  "category": "Dresses",
+  "colors": [
+   "Champagne",
+   "Black"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Bias-cut satin slip for evenings out. (Sample product)",
+  "sku": "KLIK-S102",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample4",
+  "name": "Ribbed Knit Cardigan",
+  "price": 58,
+  "category": "Tops",
+  "colors": [
+   "Oat",
+   "Cocoa"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": true,
+  "description": "Cozy cropped cardigan with pearl buttons. (Sample product)",
+  "sku": "KLIK-S103",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample5",
+  "name": "Silk Button-Up Blouse",
+  "price": 74,
+  "category": "Tops",
+  "colors": [
+   "Ivory",
+   "Dusty Rose"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Relaxed fit washable silk blouse. (Sample product)",
+  "sku": "KLIK-S104",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample6",
+  "name": "Everyday Cotton Tee",
+  "price": 28,
+  "category": "Tops",
+  "colors": [
+   "White",
+   "Black",
+   "Heather"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Soft, slightly boxy staple tee. (Sample product)",
+  "sku": "KLIK-S105",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample7",
+  "name": "High-Rise Wide Leg Jeans",
+  "price": 88,
+  "category": "Bottoms",
+  "colors": [
+   "Light Wash",
+   "Indigo"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": true,
+  "description": "Flattering high rise with a full wide leg. (Sample product)",
+  "sku": "KLIK-S106",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample8",
+  "name": "Pleated Midi Skirt",
+  "price": 62,
+  "category": "Bottoms",
+  "colors": [
+   "Mocha",
+   "Olive"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Fluid pleats that move beautifully. (Sample product)",
+  "sku": "KLIK-S107",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample9",
+  "name": "Tailored Linen Trousers",
+  "price": 72,
+  "category": "Bottoms",
+  "colors": [
+   "Natural",
+   "Black"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Easy pull-on trousers with a crisp drape. (Sample product)",
+  "sku": "KLIK-S108",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample10",
+  "name": "Oversized Wool Blazer",
+  "price": 128,
+  "category": "Outerwear",
+  "colors": [
+   "Camel",
+   "Charcoal"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": true,
+  "description": "Relaxed shoulder blazer in a wool blend. (Sample product)",
+  "sku": "KLIK-S109",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample11",
+  "name": "Woven Straw Tote",
+  "price": 48,
+  "category": "Accessories",
+  "colors": [
+   "Natural"
+  ],
+  "sizes": [
+   "One Size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Roomy hand-woven tote with leather handles. (Sample product)",
+  "sku": "KLIK-S110",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "sample12",
+  "name": "Gold Layered Necklace",
+  "price": 38,
+  "category": "Accessories",
+  "colors": [
+   "Gold"
+  ],
+  "sizes": [
+   "One Size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80&auto=format&fit=crop"
+  ],
+  "featured": false,
+  "description": "Dainty layered chains, tarnish resistant. (Sample product)",
+  "sku": "KLIK-S111",
+  "qty": 10,
+  "sample": true,
+  "source": "sample"
+ },
+ {
+  "id": "pmvy3i52day2s",
+  "name": "Velvet Puff Sleeve Top",
+  "price": 54,
+  "category": "Tops",
+  "sizes": [
+   "S",
+   "M"
+  ],
+  "colors": [
+   "Black",
+   "Wine"
+  ],
+  "description": "Plush velvet top with puff sleeves",
+  "images": [
+   "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80"
+  ],
+  "sku": "RAIN-5001",
+  "qty": 9,
+  "featured": false,
+  "sample": false,
+  "source": "rain-csv"
+ },
+ {
+  "id": "pmvy3i52d9vn1",
+  "name": "Corduroy Shacket",
+  "price": 84,
+  "category": "Outerwear",
+  "sizes": [
+   "M",
+   "L"
+  ],
+  "colors": [
+   "Rust"
+  ],
+  "description": "Cozy oversized corduroy shirt jacket",
+  "images": [
+   "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=80"
+  ],
+  "sku": "RAIN-5002",
+  "qty": 7,
+  "featured": false,
+  "sample": false,
+  "source": "rain-csv"
+ },
+ {
+  "id": "pmvy3i52dv3o3",
+  "name": "Sweater Knit Midi Dress",
+  "price": 96.5,
+  "category": "Dresses",
+  "sizes": [],
+  "colors": [],
+  "description": "Ribbed sweater dress for fall",
+  "images": [
+   "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80"
+  ],
+  "sku": "RAIN-5003",
+  "qty": 6,
+  "featured": false,
+  "sample": false,
+  "source": "rain-csv"
+ }
+]
