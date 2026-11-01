@@ -18,12 +18,13 @@ app.get(['/admin','/admin/'],(q,r)=>r.sendFile(path.join(__dirname,'public/admin
 app.get('/api/backup',(q,r)=>q.query.pin===PIN?r.attachment('data.json').json(load()):r.sendStatus(401));
 
 // ---- Stripe Checkout ----
-const RAWKEY=process.env.STRIPE_SECRET_KEY||process.env.STRIPE_TEST_SECRET_KEY||'';
+const RAWKEY=(process.env.STRIPE_SECRET_KEY||process.env.STRIPE_TEST_SECRET_KEY||'').trim().replace(/^["']+|["']+$/g,'').trim();
+const KEYSTATUS=!RAWKEY?'missing':/^pk_/.test(RAWKEY)?'publishable-key':/^(sk|rk)_(test|live)_/.test(RAWKEY)?'ok':'unrecognized-format';
 const KEY=/^(sk|rk)_(test|live)_/.test(RAWKEY)?RAWKEY:'';
 if(RAWKEY&&!KEY)console.log('Stripe key ignored: it must be a SECRET key (sk_test_/sk_live_), not a publishable pk_ key. Demo checkout active.');
 const stripe=KEY?require('stripe')(KEY):null;const SHIP=parseInt(process.env.SHIPPING_FLAT_CENTS||'800',10);
 const PAID=path.join(__dirname,'paid-sessions.json');const paidSet=()=>{try{return new Set(JSON.parse(fs.readFileSync(PAID)))}catch{return new Set()}};
-app.get('/api/config',(q,r)=>r.json({stripe:!!stripe,testMode:KEY.includes('_test_'),shippingCents:SHIP}));
+app.get('/api/config',(q,r)=>r.json({stripe:!!stripe,keyStatus:KEYSTATUS,testMode:KEY.includes('_test_'),shippingCents:SHIP}));
 const origin=q=>(q.get('x-forwarded-proto')||q.protocol)+'://'+q.get('host');
 app.post('/api/checkout',async(q,r)=>{if(!stripe)return r.status(400).json({error:'Stripe not configured'});
  try{const d=load();const items=(q.body.items||[]).slice(0,50);const line_items=[];
